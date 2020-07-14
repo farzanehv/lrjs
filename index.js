@@ -1,15 +1,5 @@
-let fname = 'Ryan';
-let lname = 'D';
-let age = prompt('enter Ryan age ');
+function welcome(user = 'Mystery person', message = 'Goodbye') {
+	alert(`Hello ${user}, ${message}`);
+}
 
-
-
-//old way
-//let result = fname + " " + lname + " " + age + " is years old";
-//alert(result);
-//
-//
-//new way
-//Template strings
-let result = `${fname} ${lname} is ${age} years old`;
-alert(result);
+welcome();
